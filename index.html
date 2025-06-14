@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elijah Feldman</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
+    }
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: all 0.8s ease;
+    }
+    .fade-in.visible {
+      opacity: 1;
+      transform: none;
+    }
+  </style>
+</head>
+<body class="bg-white text-black min-h-screen flex flex-col justify-center">
+
+  <main class="max-w-2xl mx-auto text-left pt-0 px-4 flex-1 flex flex-col justify-start">
+    <div class="mt-8 flex items-start justify-between">
+      <div>
+        <h1 class="text-2xl font-bold"><a href = "/">Elijah Feldman</a></h1>
+        <div class="text-gray-600 text-lg mt-1">
+          <span class="italic">is a <span class="text-black">learner</span>, <span class="text-black">researcher</span>, and</span><br>
+          <span class="italic">aspiring <span class="text-black italic">dev.</span></span>
+        </div>
+      </div>
+      <div class="ml-8 flex flex-col items-end space-y-2">
+        <a href="/projects.html" class="text-black hover:underline font-medium">Projects</a>
+        <a href="/contact.html" class="text-black hover:underline font-medium">Contact Me</a>
+      </div>
+    </div>
+
+    <p class="mt-6 text-gray-800 leading-relaxed">
+      Hi! I go by Eli. I'm currently a sophomore studying everything at <a href = "https://www.tjhsst.fcps.edu" class="hover:underline underline">TJ</a>, passionate about computer science, fascinated by all things <span class="italic">algorithms, cognition, and intelligence</span>.
+    </p>
+
+    <p class="mt-6 text-gray-800 leading-relaxed">
+      I want to work on <span class="italic">fundamental problems</span>, those that impact human understanding and intelligence.
+    </p>
+
+    <p class="mt-6 text-gray-800 leading-relaxed">
+      Most recently, that's meant exploring neural optimization, deep learning, and some <span class="italic">Biology</span>. 
+    </p>
+    <figure class="mt-4">
+      <img src="glacier.jpg" alt="Glacier" class="fade-in" style="margin-top: 0.5rem;" />
+      <figcaption class="mt-2 text-center">
+        <span class="block text-gray-500 font-medium italic">In quiet places, we find space to reflect and grow.</span>
+        <span class="block text-gray-400 text-sm italic">Glacier National Park, Montana</span>
+      </figcaption>
+    </figure>
+    <p class="mt-6 text-gray-800 leading-relaxed">
+      I'm currently working on a few projects, including:
+      <ul class="list-disc list-inside mt-2">
+        <li class="mt-2"><span class="italic">IAadamW</span> - an optimizer for deep learning</li>
+        <li class="mt-2"><span class="italic">BioBlitz</span> - making Bio competitive and fun</li>
+        <li class="mt-2"><span class="italic">Entity recognition</span> - interning at <a href="https://gmu.edu" class = "underline">GMU</a></li>
+      </ul>
+    </p>
+    <figure class="mt-4">
+      <img src="yosemeti.jpg" alt="Yosemite" class="fade-in" style="margin-top: 0.5rem;" />
+      <figcaption class="mt-2 text-center">
+        <span class="block text-gray-500 font-medium italic">"The Mountains Are Calling and I Must Go"</span> <span class="text-gray-400">- John Muir</span>
+        <span class="block text-gray-400 text-sm italic">Yosemite National Park, California</span>
+      </figcaption>
+    </figure>
+    <p class="mt-6 text-gray-800 leading-relaxed">
+      I'm working at my school as a <a href="https://sysadmins.tjhsst.edu">sysadmin</a>. I'm always looking for new challenges and opportunities to grow.
+    </p>
+  </main>
+
+  <footer class="text-center text-gray-500 text-sm p-6 flex flex-col items-center space-y-2">
+    <div class="flex items-center justify-center space-x-3">
+      <a href="https://github.com/ElijahFeldman7" target="_blank" rel="noopener" aria-label="GitHub">
+        <svg class="inline-block w-6 h-6 text-black hover:text-gray-700" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.085 1.84 1.237 1.84 1.237 1.07 1.834 2.809 1.304 3.495.997.108-.775.418-1.305.762-1.606-2.665-.304-5.466-1.332-5.466-5.931 0-1.31.469-2.381 1.236-3.221-.124-.303-.535-1.523.117-3.176 0 0 1.008-.322 3.301 1.23a11.52 11.52 0 013.003-.404c1.018.005 2.045.138 3.003.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.873.119 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.804 5.625-5.475 5.921.43.372.823 1.102.823 2.222v3.293c0 .322.218.694.825.576C20.565 21.796 24 17.297 24 12c0-6.63-5.37-12-12-12z"/>
+        </svg>
+      </a>
+      <a href="https://github.com/ElijahFeldman7" target="_blank" rel="noopener" class="hover:underline text-black font-medium">@ElijahFeldman7</a>
+      <svg class="inline-block w-6 h-6 text-black" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M20 4H4C2.9 4 2 4.9 2 6v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 2v.01L12 13 4 6.01V6h16zM4 20v-9.99l7.29 6.71c.39.36 1.02.36 1.41 0L20 10.01V20H4z"/>
+      </svg>
+      <a href="mailto:2028efeldman@tjhsst.edu" class="hover:underline text-black font-medium">2028efeldman@tjhsst.edu</a>
+    </div>
+  </footer>
+
+
+  <script>
+    const faders = document.querySelectorAll('.fade-in');
+    const appearOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    };
+    const appearOnScroll = new IntersectionObserver(function(entries, observer) {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      });
+    }, appearOptions);
+    faders.forEach(fader => {
+      appearOnScroll.observe(fader);
+    });
+  </script>
+</body>
+</html>
