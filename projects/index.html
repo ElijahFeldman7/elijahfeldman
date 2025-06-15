@@ -9,16 +9,16 @@
 </head>
 <body class="bg-white text-black min-h-screen flex flex-col justify-center">
 
-  <main class="max-w-2xl mx-auto text-left pt-0 px-4 flex-1 flex flex-col justify-start">
+  <main class="max-w-2xl mx-auto text-left pt-0 px-2 sm:px-4 flex-1 flex flex-col justify-start">
     <div class="mt-8 flex items-start justify-between">
       <div>
-        <h1 class="text-2xl font-bold flex items-center">
+        <h1 class="text-2xl font-bold flex items-center flex-wrap">
           <a href="/">Elijah Feldman</a>
-          <span class="text-lg mx-3 text-neutral-400">—</span>
-          <span>Projects</span>
+          <span class="text-lg mx-2 text-neutral-400 hidden sm:inline">—</span>
+          <span class="hidden sm:inline">Projects</span>
         </h1>
       </div>
-      <div class="ml-8 flex flex-col items-end space-y-2">
+      <div class="ml-4 sm:ml-8 flex flex-col items-end space-y-2">
         <a href="/projects/" class="text-black hover:underline font-medium">Projects</a>
         <a href="/contact/" class="text-black hover:underline font-medium">Contact Me</a>
       </div>
@@ -32,7 +32,7 @@
     </div>
 
     <div class="space-y-12">
-      <div id="bioblitz" class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 items-start pt-12 border-t border-gray-200">
+      <div id="bioblitz" class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-12 items-start pt-12 border-t border-gray-200">
         <div class="md:col-span-2">
           <p class="text-sm text-gray-500 mb-2">Feb 2025 - Present</p>
           <h3 class="text-xl font-bold text-gray-900 mb-3">BioBlitz</h3>
@@ -44,18 +44,18 @@
             <span class="bg-gray-100 text-gray-700 text-xs font-medium px-2.5 py-1 rounded-full">Node.js</span>
             <span class="bg-gray-100 text-gray-700 text-xs font-medium px-2.5 py-1 rounded-full">TypeScript</span>
           </div>
-          <a href="https://github.com/aarnav593/hacktj25" target="_blank" rel="noopener" class="inline-flex items-center gap-2 text-sm font-medium text-gray-600 hover:text-gray-900">
+          <a href="https://github.com/aarnav593/hacktj25" target="_blank" rel="noopener" class="inline-flex items-center gap-2 text-sm font-medium text-gray-600 hover:text-gray-900 break-all">
             Github
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
           </a>
         </div>
         <div class="md:col-span-1 mt-4 md:mt-0">
-          <img src="bioblitz.png" alt="Elijah Feldman BioBlitz Project Screenshot" class="rounded-sm shadow-md hover:shadow-xl transition-shadow duration-300" width="600" height="400">
+          <img src="bioblitz.png" alt="Elijah Feldman BioBlitz Project Screenshot" class="rounded-sm shadow-md hover:shadow-xl transition-shadow duration-300 w-full max-w-xs md:max-w-full" width="600" height="400">
         </div>
       </div>
     </div>
 
-    <footer class="text-center text-neutral-500 text-sm p-6 flex flex-col items-center space-y-2">
+    <footer class="text-center text-neutral-500 text-sm p-4 flex flex-col items-center space-y-2">
       <div class="flex items-center justify-center space-x-3">
         <a href="https://github.com/ElijahFeldman7" target="_blank" rel="noopener" aria-label="GitHub">
           <svg class="inline-block w-6 h-6 text-black hover:text-gray-700" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
