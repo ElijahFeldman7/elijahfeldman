@@ -1,1 +1,1 @@
-Hi! This is a personal website I made a while back. It looks old, and I might update it soon.
+This is website v1. I'm revamping it though!
